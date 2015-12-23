@@ -8,5 +8,6 @@ def main():
     gender=raw_input("What is your gender?")
     nationality=raw_input("What is your nationality?")
     origin=raw_input("Where are you originally from?")
-    return [name,age,gender,nationality,origin]
+    residence=raw_input("Where do you currently reside?")
+    return [name,age,gender,nationality,origin,residence]
 main()
